@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fetching data using promises">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png">
+</head>
+<body>
+
+    <header class="header-box">
+        <a class="logo" href="index.html">
+            <img src="images/WhatsApp Image 2025-01-26 at 12.49.37 AM.jpeg" alt="logo">
+        </a>
+        <span class="tagline">Power Up with the Best Games.....</span>
+        <a href="products.html" class="back-link">← Back to products</a>
+    </header>
+
+    <br>
+
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Upcominggames.html">Upcoming games</a></li>
+          <li><a href="ConsolesandGamingperipherals.html">Consoles and gaming peripherals</a></li>
+          <li><a href="Games.html">Games</a></li>
+          <li><a href="products.html">Order now</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="quariesandfaq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="cart-section">
+        <ul id="cart-items"></ul>
+        <p id="total"></p>
+        <button id="buyBtn" onclick="buyNow()">✔ Buy now</button>
+        <button id="applyFavouritesBtn" onclick="applyFavourites()">➕ Apply Favourites</button>
+        <button id="clearCartBtn" onclick="clearCart()">❌ Clear Order</button>
+        <button id="clearFavsBtn" onclick="clearFavourites()">❌ Clear Favourites</button>
+    </section>
+
+    <br>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="contact details">
+                <!--Contact Details-->
+                <h3>Contact Us</h3>
+                <p>Email: support@GameVault.com</p>
+                <p>Phone: +94 815 684 447</p>
+                <p>Address: 76 DS Senanayake street, Kandy</p>
+            </div>
+    
+            <br>
+        
+            <!--Support-links-->
+            <div class="support-links">
+                <h3>Support</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+    
+            <!--Social Media links-->
+            <div class="socials">
+                <h3>Follow Us on</h3>
+                <div class="social-icons">
+                    <a href="www.facebook.com"><img src="images/download.png" alt="Facebook"></a>
+                    <a href="www.instagram.com"><img src="images/images (1).png" alt="Instagram"></a>
+                    <a href="www.whatsapp.com"><img src="images/images.jpg" alt="Whatsapp"></a>
+                    <a href="www.twitter.com"><img src="images/download (3).png" alt="Twitter"></a>
+                    <a href="www.telegram.com"><img src="images/images.png" alt="Telegram"></a>
+                </div>
+            </div>
+        </div>
+    
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <p>&copy; 2025 GameVault. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

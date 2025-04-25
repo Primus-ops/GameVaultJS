@@ -1,0 +1,7 @@
+.header-box a:last-child img {
+    height: 35px;
+    width: auto;
+    padding: 4px;
+    margin-right: 10px;
+    object-fit: contain;
+}
